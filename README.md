@@ -93,7 +93,7 @@ Do not open index.html directly. The page must be served by FastAPI so the api r
 |--------|--------------------|----------------------------------------------------------------------
 |  POST  | /api/lookup        | Reputation lookup for an IP or domain. Body: `{"ioc": "185.220.101.4"}
 |  POST  | /api/analyze-log   | Upload a log file (multipart form field `logfile`) and receive analysis
-|  GET   | /api/sample-log    | Analyze a built-in sample SSH brute-force log
+|  GET   | /api/sample-log    | Analyze a built in sample SSH brute force log
 
 
 ## How Detection Works
